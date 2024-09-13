@@ -1,8 +1,8 @@
-/* btn-medium */
-.btn-yours {
-    color: rgb(151, 151, 151);
+/* btn-skills */
+.btn-ruby, .btn-git, .btn-es6, .btn-css, .btn-html, .btn-cdt, .btn-sql, .btn-heroku, .btn-openai, .btn-copilot {
+    color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
-    padding: 13px 24px;
+    padding: 15px 20px;
     border-radius: 50px;
     border-style: solid;
     border-color: rgb(190, 190, 190);
@@ -12,20 +12,65 @@
     font-size: small;
     font-weight: 100;
     display: inline-block;
+    margin-top: 5px;
 }
 
-.btn-yours:hover {
-    color: rgb(151, 151, 151);
+.btn-ruby:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(193, 0, 0);
+    border-color: rgb(161, 161, 161);
 }
 
-.btn-yours:link {
-    color: rgb(151, 151, 151);
+.btn-git:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(234, 86, 0);
+    border-color: rgb(161, 161, 161);
 }
 
-.btn-yours:visited {
-    color: rgb(206, 206, 206);
+.btn-es6:hover {
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    border-color: rgb(161, 161, 161);
 }
 
-.btn-yours:active {
-    color: rgb(182, 195, 207);
+.btn-css:hover {
+    color: rgb(0, 0, 0);
+    background-color: lightblue;
+    border-color: rgb(161, 161, 161);
+}
+
+.btn-html:hover {
+    color: rgb(0, 0, 0);
+    background-color: orange;
+    border-color: rgb(161, 161, 161);
+}
+
+.btn-cdt:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(70, 70, 255);
+    border-color: rgb(161, 161, 161);
+}
+
+.btn-sql:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 179, 39);
+    border-color: rgb(161, 161, 161);
+}
+
+.btn-heroku:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 255);
+    border-color: rgb(161, 161, 161);
+}
+
+.btn-openai:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(161, 161, 161);
+}
+
+.btn-copilot:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(219, 219, 219);
+    border-color: rgb(161, 161, 161);
 }
