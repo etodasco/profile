@@ -2,19 +2,27 @@ div {
     display: block;
 }
 
+h1 { 
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+h2 { 
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+}
+
 body {
     background-color: white;
     font-family: arial;
     font-size: 25px;
     color: black;
     line-height: 20px;
-}
-
-h1 { 
-    font-family: "Baskervville SC", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
 }
 
 /* Skills*/
@@ -24,6 +32,7 @@ p {
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
+    text-align: center;
 }
 
 .le_wagon_logo {
@@ -46,13 +55,6 @@ p {
 .le_wagon_logo:active {
     color: rgb(182, 195, 207);
   }
-
-h2 { 
-    font-family: "Baskervville SC", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
-}
 
 i {
     color: black;
