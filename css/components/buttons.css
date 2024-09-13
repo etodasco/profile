@@ -2,7 +2,7 @@
 .btn-ruby, .btn-git, .btn-es6, .btn-css, .btn-html, .btn-cdt, .btn-sql, .btn-heroku, .btn-openai, .btn-copilot {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
-    padding: 15px 20px;
+    padding: 15px 24px;
     border-radius: 50px;
     border-style: solid;
     border-color: rgb(190, 190, 190);
