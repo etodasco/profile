@@ -1,5 +1,5 @@
 /* btn-skills */
-.btn-ruby, .btn-git, .btn-es6, .btn-css, .btn-html, .btn-cdt, .btn-sql, .btn-heroku, .btn-openai, .btn-copilot, .btn-rubyonrails, .btn-github {
+.btn-ruby, .btn-git, .btn-es6, .btn-css, .btn-html, .btn-cdt, .btn-heroku, .btn-openai, .btn-copilot {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     padding: 15px 24px;
@@ -87,7 +87,22 @@
     border-color: rgb(161, 161, 161);
 }
 
-.cyber-btns {
+#backend {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 15px 24px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: rgb(190, 190, 190);
+    border-width: thin;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+    display: inline-block;
+    margin-top: 5px;
+}
+#cyber {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     padding: 15px 24px;

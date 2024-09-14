@@ -25,11 +25,6 @@ p {
     content: url("https://www.lewagon.com/assets/v4/logo-lewagon-9c1…9059ce0dc6c0dfc4cc2447d5a9a3e01bd2d5a214faf3c.svg");
 }
 
-i {
-    color: black;
-    font-size: 60px;
-}
-
 /* LinkedIn_logo */
 #linkedin-logo {
     color: rgb(0, 0, 0);
@@ -106,7 +101,7 @@ a:active {
   }
 
 .img-circle {
-    width: 100px;
+    width: 200px;
     border-radius: 50%;
 }
 
