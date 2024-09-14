@@ -11,8 +11,6 @@ body {
     line-height: 20px;
 }
 
-/* Skills*/
-
 p { 
     font-weight: 400;
     font-style: normal;
@@ -100,6 +98,7 @@ a:active {
 
 .avatar {
     width: 200px;
+    border-radius: 10%;
     transition: border-radius 500ms;
 }
 
