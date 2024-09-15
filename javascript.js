@@ -28,3 +28,12 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log(event);
   });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+
+  const button = document.querySelector(".btn-git");
+  button.addEventListener("click", (event) => {
+    button.classList.toggle("");
+    console.log(event);
+  });
+});

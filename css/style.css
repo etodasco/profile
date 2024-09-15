@@ -27,7 +27,7 @@ p {
 /* LinkedIn_logo */
 #linkedin-logo {
     color: rgb(0, 0, 0);
-    height: 50px;
+    font-size: 50px;
 }
 
 #linkedin-logo:hover {
@@ -35,8 +35,10 @@ p {
 }
 
 /* Github_logo */
+
 #github-logo {
     color: rgb(0, 0, 0);
+    font-size: 50px;
 }
 
 #github-logo:hover {
@@ -76,7 +78,7 @@ p {
 
 @media (min-width: 440px) {
 
-    /* Pour un écran > 720px, cette classe CSS s'applique */
+    /* For screen sizes > 720px */
     .container {
       width: 400px;
     }
@@ -84,7 +86,7 @@ p {
   
   @media (min-width: 620px) {
   
-    /* Pour un écran > 720px, cette classe CSS s'applique */
+    /* For screen sizes > 720px */
     .container {
       width: 500px;
     }
@@ -92,7 +94,7 @@ p {
   
   @media (min-width: 960px) {
   
-    /* Pour un écran > 720px, cette classe CSS s'applique */
+    /* For screen sizes > 720px */
     .container {
       width: 700px;
     }
