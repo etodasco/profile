@@ -2,7 +2,6 @@
     width: 200px;
     border-radius: 10%;
     transition: border-radius 500ms;
-    align-items: center;
 }
 
 .avatar-circle {
@@ -15,11 +14,28 @@ div {
 }
 
 body {
-    background-color: rgb(227, 227, 227);
+    background-color: rgb(255, 255, 255);
     font-family: arial;
     font-size: 20px;
     color: black;
     line-height: 20px;
+}
+
+h1 { 
+    font-family: "Ariel";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: left;
+}
+
+h2 { 
+    padding-top: 5%;
+    font-family: "Ariel";
+    text-align: left;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
 }
 
 /* Welcome Paragraph */
@@ -46,20 +62,16 @@ p {
     text-align: left;
 }
 
-img {
-    align-items: center;
-    padding-top: 2%;
-}
-
 .container {
     background-color: white;
-    text-align: center;
     width: 700px;
     margin: 3% auto;
+    text-align: center;
 }
 
 .list-inline {
     padding-top: 0%;
+    text-align: left;
 }
 
 .list-inline li {
@@ -67,9 +79,10 @@ img {
 }
 
 /* LinkedIn_logo */
-#linkedin-logo {
+.fa-linkedin {
     color: rgb(0, 0, 0);
     font-size: 50px;
+    text-align: center;
 }
 
 #linkedin-logo:hover {
@@ -78,9 +91,10 @@ img {
 
 /* Github_logo */
 
-#github-logo {
+.fa-github {
     color: rgb(0, 0, 0);
     font-size: 50px;
+    text-align: center;
 }
 
 #github-logo:hover {

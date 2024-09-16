@@ -1,8 +1,8 @@
-/* btn-skills */
+/* Frontend Engineering Buttons */
 .btn-ruby, .btn-git, .btn-es6, .btn-css, .btn-html, .btn-cdt, .btn-heroku, .btn-openai, .btn-copilot {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
-    padding: 12px 20px;
+    padding: 10px 18px;
     width: auto;
     height: auto;
     border-radius: 50px;
@@ -15,6 +15,63 @@
     font-weight: 100;
     display: inline-block;
     margin-top: 8px;
+}
+
+/* Backend Engineering Buttons */
+.btn-backend-ruby, .btn-rubyonrails, .btn-github, .btn-sql {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 10px 18px;
+    width: auto;
+    height: auto;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: rgb(190, 190, 190);
+    border-width: 2px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 100;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+/* Cybersecurity Buttons */
+.btn-burpsuite, .btn-hackerone, .btn-analysis, .btn-kalilinux, .btn-pentesting {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 10px 18px;
+    width: auto;
+    height: auto;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: rgb(190, 190, 190);
+    border-width: 2px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 100;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+/* Coming Soon */
+.btn-coming-soon {
+color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+padding: 10px 18px;
+width: auto;
+height: auto;
+border-radius: 50px;
+border-style: solid;
+border-color: rgb(190, 190, 190);
+border-width: 2px;
+text-decoration: none;
+text-align: left;
+font-size: 14px;
+font-weight: 100;
+display: inline-block;
+margin-top: 8px;
 }
 
 .btn-ruby:hover {
@@ -75,39 +132,4 @@
     color: rgb(255, 255, 255);
     background-color: rgb(219, 219, 219);
     border-color: rgb(161, 161, 161);
-}
-
-#backend {
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    padding: 12px 20px;
-    width: auto;
-    height: auto;
-    border-radius: 50px;
-    border-style: solid;
-    border-color: rgb(190, 190, 190);
-    border-width: 2px;
-    text-decoration: none;
-    text-align: left;
-    font-size: 14px;
-    font-weight: 100;
-    display: inline-block;
-    margin-top: 8px;
-}
-#cyber {
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    padding: 12px 20px;
-    width: auto;
-    height: auto;
-    border-radius: 50px;
-    border-style: solid;
-    border-color: rgb(190, 190, 190);
-    border-width: 2px;
-    text-decoration: none;
-    text-align: left;
-    font-size: 14px;
-    font-weight: 100;
-    display: inline-block;
-    margin-top: 8px;
 }
