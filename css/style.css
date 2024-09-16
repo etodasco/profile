@@ -2,6 +2,7 @@
     width: 200px;
     border-radius: 10%;
     transition: border-radius 500ms;
+    align-items: center;
 }
 
 .avatar-circle {
@@ -14,7 +15,7 @@ div {
 }
 
 body {
-    background-color: white;
+    background-color: rgb(227, 227, 227);
     font-family: arial;
     font-size: 20px;
     color: black;
@@ -23,7 +24,7 @@ body {
 
 /* Welcome Paragraph */
 #welcome { 
-    font-weight: 400;
+    font-weight: 400px;
     font-style: normal;
     font-size: 20px;
     word-spacing: 1px;
@@ -41,9 +42,28 @@ p {
     font-style: normal;
     font-size: 20px;
     word-spacing: 1px;
-    line-height: 22px;
+    line-height: 26px;
     text-align: left;
-    tex
+}
+
+img {
+    align-items: center;
+    padding-top: 2%;
+}
+
+.container {
+    background-color: white;
+    text-align: center;
+    width: 700px;
+    margin: 3% auto;
+}
+
+.list-inline {
+    padding-top: 0%;
+}
+
+.list-inline li {
+    display: inline;
 }
 
 /* LinkedIn_logo */
@@ -65,29 +85,6 @@ p {
 
 #github-logo:hover {
     color: rgb(210, 210, 210);
-}
-
-.card-white {
-    background-color: white;
-    box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
-    text-align: center;
-    padding: 20px;
-    margin: 20px 0;
-  }
-
-.list-inline {
-    padding: 0;
-}
-
-.list-inline li {
-    display: inline;
-}
-
-.container {
-    background-color: white;
-    text-align: center;
-    width: 700px;
-    margin: 0 auto;
 }
 
 /* Social Media H2 */
