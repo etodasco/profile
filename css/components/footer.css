@@ -1,0 +1,20 @@
+.footer {
+    color: white;
+    background-color: #000000;
+    text-align: center;
+    padding: 15px;
+}
+
+div .link {
+    color: white;
+    background-color: black;
+}
+
+.footer a {
+    color: white;
+    font-size: 40px;
+}
+
+.footer .logos {
+    text-align: center;
+}

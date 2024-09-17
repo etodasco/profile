@@ -1,0 +1,9 @@
+.avatar {
+    width: 200px;
+    border-radius: 10%;
+    transition: border-radius 500ms;
+}
+
+.avatar-circle {
+    border-radius: 50%;
+}

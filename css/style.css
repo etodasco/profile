@@ -1,136 +1,38 @@
-.avatar {
-    width: 200px;
-    border-radius: 10%;
-    transition: border-radius 500ms;
+body {
+    background-color: rgb(255, 255, 255);
+    color: black;
 }
 
-.avatar-circle {
-    border-radius: 50%;
+.container {
 }
 
 div {
     display: block;
-    background-color: lightgrey;
-}
-
-body {
     background-color: rgb(255, 255, 255);
+    width: auto;
+    margin: auto;
+    
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile h1 {
+   font-family: arial;
+   font-size: 25px;
+}
+
+.profile p {
     font-family: arial;
-    font-size: 20px;
-    color: black;
-    line-height: 20px;
+    font-size: 16;
 }
 
-h1 { 
-    font-family: "Ariel";
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
+.le_wagon_logo {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
     text-align: left;
 }
-
-h2 { 
-    padding-top: 5%;
-    font-family: "Ariel";
-    text-align: left;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
-}
-
-/* Welcome Paragraph */
-#welcome { 
-    font-weight: 400px;
-    font-style: normal;
-    font-size: 20px;
-    word-spacing: 1px;
-    line-height: 22px;
-    text-align: center;
-}
-
-#welcome_h1 {
-    text-align: center;
-}
-
-/* My Story Paragraph */
-p { 
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-    word-spacing: 1px;
-    line-height: 26px;
-    text-align: left;
-}
-
-.container {
-    background-color: white;
-    width: 700px;
-    margin: 3% auto;
-    text-align: center;
-}
-
-.list-inline {
-    padding-top: 0%;
-    text-align: left;
-}
-
-.list-inline li {
-    display: inline;
-}
-
-/* LinkedIn_logo */
-.fa-linkedin {
-    color: rgb(0, 0, 0);
-    font-size: 50px;
-    text-align: center;
-}
-
-#linkedin-logo:hover {
-    color: rgb(210, 210, 210);
-}
-
-/* Github_logo */
-
-.fa-github {
-    color: rgb(0, 0, 0);
-    font-size: 50px;
-    text-align: center;
-}
-
-#github-logo:hover {
-    color: rgb(210, 210, 210);
-}
-
-/* Social Media H2 */
-#social_media {
-    text-align: center;
-}
-
-/* Social Media p */
-#follow_me {
-    text-align: center;
-}
-
-@media (min-width: 440px) {
-
-    /* For screen sizes > 720px */
-    .container {
-      width: 400px;
-    }
-  }
-  
-  @media (min-width: 620px) {
-  
-    /* For screen sizes > 720px */
-    .container {
-      width: 500px;
-    }
-  }
-  
-  @media (min-width: 960px) {
-  
-    /* For screen sizes > 720px */
-    .container {
-      width: 700px;
-    }
-  }

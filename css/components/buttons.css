@@ -2,13 +2,13 @@
 .btn-ruby, .btn-git, .btn-es6, .btn-css, .btn-html, .btn-cdt, .btn-heroku, .btn-openai, .btn-copilot {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
-    padding: 10px 18px;
+    padding: 8px 16px;
     width: auto;
     height: auto;
     border-radius: 50px;
     border-style: solid;
-    border-color: rgb(190, 190, 190);
-    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    border-width: thin;
     text-decoration: none;
     text-align: center;
     font-size: 14px;
@@ -21,13 +21,13 @@
 .btn-backend-ruby, .btn-rubyonrails, .btn-github, .btn-sql {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
-    padding: 10px 18px;
+    padding: 8px 16px;
     width: auto;
     height: auto;
     border-radius: 50px;
     border-style: solid;
-    border-color: rgb(190, 190, 190);
-    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    border-width: thin;
     text-decoration: none;
     text-align: left;
     font-size: 14px;
@@ -40,13 +40,13 @@
 .btn-burpsuite, .btn-hackerone, .btn-analysis, .btn-kalilinux, .btn-pentesting {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
-    padding: 10px 18px;
+    padding: 8px 16px;
     width: auto;
     height: auto;
     border-radius: 50px;
     border-style: solid;
-    border-color: rgb(190, 190, 190);
-    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    border-width: thin;
     text-decoration: none;
     text-align: left;
     font-size: 14px;
@@ -56,16 +56,16 @@
 }
 
 /* Coming Soon */
-.btn-coming-soon {
+.btn_coming_soon {
 color: rgb(0, 0, 0);
 background-color: rgb(255, 255, 255);
-padding: 10px 18px;
+padding: 8px 16px;
 width: auto;
 height: auto;
 border-radius: 50px;
 border-style: solid;
-border-color: rgb(190, 190, 190);
-border-width: 2px;
+border-color: rgb(0, 0, 0);
+border-width: thin;
 text-decoration: none;
 text-align: left;
 font-size: 14px;
@@ -107,12 +107,6 @@ margin-top: 8px;
 .btn-cdt:hover {
     color: rgb(0, 0, 0);
     background-color: rgb(70, 70, 255);
-    border-color: rgb(161, 161, 161);
-}
-
-.btn-sql:hover {
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 179, 39);
     border-color: rgb(161, 161, 161);
 }
 

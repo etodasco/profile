@@ -1,0 +1,23 @@
+@media (min-width: 440px) {
+
+    /* For screen sizes > 720px */
+    .container {
+      width: 400px;
+    }
+  }
+  
+  @media (min-width: 620px) {
+  
+    /* For screen sizes > 720px */
+    .container {
+      width: 500px;
+    }
+  }
+  
+  @media (min-width: 960px) {
+  
+    /* For screen sizes > 720px */
+    .container {
+      width: 700px;
+    }
+  }
