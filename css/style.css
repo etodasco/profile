@@ -11,7 +11,8 @@ div {
     background-color: rgb(255, 255, 255);
     width: auto;
     margin: auto;
-    
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .profile {
@@ -30,6 +31,7 @@ div {
 
 .le_wagon_logo {
     text-align: center;
+    padding-top: 8px;
 }
 
 ul {
