@@ -112,3 +112,106 @@ document.addEventListener('DOMContentLoaded', () => {
       console.log(event);
       });
     });
+
+  document.addEventListener('DOMContentLoaded', () => {
+
+    const btn_rubyonrails = document.querySelector(".btn-rubyonrails");
+    btn_rubyonrails.addEventListener("click", (event) => {
+      btn_rubyonrails.classList.toggle("active");
+      console.log(event);
+      });
+    });
+
+  document.addEventListener('DOMContentLoaded', () => {
+
+    const btn_github = document.querySelector(".btn-github");
+    btn_github.addEventListener("click", (event) => {
+      btn_github.classList.toggle("active");
+      console.log(event);
+      });
+    });
+  
+  document.addEventListener('DOMContentLoaded', () => {
+
+    const btn_sql = document.querySelector(".btn-sql");
+    btn_sql.addEventListener("click", (event) => {
+      btn_sql.classList.toggle("active");
+      console.log(event);
+      });
+    });
+  
+  document.addEventListener('DOMContentLoaded', () => {
+
+    const btn_restapi = document.querySelector(".btn-restapi");
+    btn_restapi.addEventListener("click", (event) => {
+      btn_restapi.classList.toggle("active");
+      console.log(event);
+      });
+    });
+    
+  document.addEventListener('DOMContentLoaded', () => {
+
+    const btn_postman = document.querySelector(".btn-postman");
+    btn_postman.addEventListener("click", (event) => {
+      btn_postman.classList.toggle("active");
+      console.log(event);
+      });
+    });
+
+  // Button click event lister for each backend button //  
+  
+  document.addEventListener('DOMContentLoaded', () => {
+
+    const btn_burpsuite = document.querySelector(".btn-burpsuite");
+    btn_burpsuite.addEventListener("click", (event) => {
+      btn_burpsuite.classList.toggle("active");
+      console.log(event);
+      });
+    });
+
+  document.addEventListener('DOMContentLoaded', () => {
+
+    const btn_hackerone = document.querySelector(".btn-hackerone");
+    btn_hackerone.addEventListener("click", (event) => {
+      btn_hackerone.classList.toggle("active");
+      console.log(event);
+      });
+    });
+
+  document.addEventListener('DOMContentLoaded', () => {
+
+    const btn_analysis = document.querySelector(".btn-analysis");
+    btn_analysis.addEventListener("click", (event) => {
+      btn_analysis.classList.toggle("active");
+      console.log(event);
+      });
+    });
+  
+  document.addEventListener('DOMContentLoaded', () => {
+
+    const btn_kalilinux = document.querySelector(".btn-kalilinux");
+    btn_kalilinux.addEventListener("click", (event) => {
+      btn_kalilinux.classList.toggle("active");
+      console.log(event);
+      });
+    });
+
+  document.addEventListener('DOMContentLoaded', () => {
+
+    const btn_pentesting = document.querySelector(".btn-pentesting");
+    btn_pentesting.addEventListener("click", (event) => {
+      btn_pentesting.classList.toggle("active");
+      console.log(event);
+      });
+    });
+  
+   // Button click event lister for each portfolio button // 
+
+  document.addEventListener('DOMContentLoaded', () => {
+
+    const btn_coming_soon = document.querySelector(".btn-coming-soon");
+    btn_coming_soon.addEventListener("click", (event) => {
+      btn_coming_soon.classList.toggle("active");
+      console.log(event);
+      });
+    });
