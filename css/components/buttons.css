@@ -129,8 +129,58 @@ margin-top: 8px;
     border-color: rgb(161, 161, 161);
 }
 
-/* Button Click Effects */
-.clickable.active i {
+/* Button Click Effects Frontend */
+.btn-git.active {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(161, 161, 161);
+}
+
+.btn-es6.active {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(161, 161, 161);
+}
+
+.btn-css.active {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(161, 161, 161);
+}
+
+.btn-html.active {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(161, 161, 161);
+}
+
+.btn-cdt.active {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(161, 161, 161);
+}
+
+.btn-heroku.active {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(161, 161, 161);
+}
+
+.btn-openai.active {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(161, 161, 161);
+}
+
+.btn-copilot.active {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(161, 161, 161);
+}
+
+/* Button Click Effects Backend */
+
+.btn-backend-ruby.active {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
     border-color: rgb(161, 161, 161);
