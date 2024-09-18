@@ -29,9 +29,11 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-//   const button = document.querySelector(".btn-git");
-//   button.addEventListener("click", (event) => {
-//     button.classList.toggle("");
-//     console.log(event);
-//   });
-// });
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll(".clickable").forEach((button) => {
+    button.addEventListener("click", (event) => {
+      event.currentTarget.classList.toggle("active"); // Toggling only the 'active' class
+      event.currentTarget.classList.toggle("i"); // Toggling the 'i' class separately if needed
+    });
+  });
+});
