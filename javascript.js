@@ -6,11 +6,11 @@
     console.log(event);
   });
 
-    const avatar2 = document.querySelector(".avatar");
-    avatar2.addEventListener("mouseleave", (event) => {
-      avatar2.classList.toggle("avatar-circle");
-      console.log(event);
-    });
+  const avatar2 = document.querySelector(".avatar");
+  avatar2.addEventListener("mouseleave", (event) => {
+    avatar2.classList.toggle("avatar-circle");
+    console.log(event);
+  });
 
 // Avatar click event Listener /
 
