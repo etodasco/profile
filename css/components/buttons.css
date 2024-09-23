@@ -1,5 +1,5 @@
 /* Frontend Engineering Buttons */
-.btn-ruby, .btn-git, .btn-es6, .btn-css, .btn-html, .btn-cdt, .btn-heroku, .btn-openai, .btn-copilot {
+.btn-ruby, .btn-es6, .btn-vuejs, .btn-css, .btn-html, .btn-cdt, .btn-heroku, .btn-openai, .btn-copilot {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     padding: 8px 16px;
@@ -81,12 +81,6 @@ margin-top: 8px;
     border-color: rgb(161, 161, 161);
 }
 
-.btn-git:hover {
-    color: rgb(0, 0, 0);
-    background-color: rgb(234, 86, 0);
-    border-color: rgb(161, 161, 161);
-}
-
 .btn-es6:hover {
     color: rgb(0, 0, 0);
     background-color: yellow;
@@ -130,13 +124,14 @@ margin-top: 8px;
 }
 
 /* Button Click Effects Frontend */
-.btn-git.active {
+
+.btn-es6.active {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
     border-color: rgb(161, 161, 161);
 }
 
-.btn-es6.active {
+.btn-vuejs.active {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
     border-color: rgb(161, 161, 161);

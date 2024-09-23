@@ -22,15 +22,16 @@
 
 // Button click event lister for each frontend button 
 
-  const btn_git = document.querySelector(".btn-git");
-  btn_git.addEventListener("click", (event) => {
-    btn_git.classList.toggle("active");
-    console.log(event);
-    });
 
   const btn_es6 = document.querySelector(".btn-es6");
   btn_es6.addEventListener("click", (event) => {
     btn_es6.classList.toggle("active");
+    console.log(event);
+    });
+
+  const btn_vuejs = document.querySelector(".btn-vuejs");
+  btn_vuejs.addEventListener("click", (event) => {
+    btn_vuejs.classList.toggle("active");
     console.log(event);
     });
 
