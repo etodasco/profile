@@ -29,9 +29,27 @@
     console.log(event);
     });
 
+  const btn_vanillajs = document.querySelector(".btn-vanillajs");
+  btn_vanillajs.addEventListener("click", (event) => {
+    btn_vanillajs.classList.toggle("active");
+    console.log(event);
+    });
+
+  const btn_mustachejs = document.querySelector(".btn-mustachejs");
+  btn_mustachejs.addEventListener("click", (event) => {
+    btn_mustachejs.classList.toggle("active");
+    console.log(event);
+    });
+
   const btn_vuejs = document.querySelector(".btn-vuejs");
   btn_vuejs.addEventListener("click", (event) => {
     btn_vuejs.classList.toggle("active");
+    console.log(event);
+    });
+    
+  const btn_react = document.querySelector(".btn-react");
+  btn_react.addEventListener("click", (event) => {
+    btn_react.classList.toggle("active");
     console.log(event);
     });
 
