@@ -1,4 +1,5 @@
 .avatar {
+    border: 1px solid white;
     width: 200px;
     border-radius: 10%;
     transition: border-radius 500ms;
