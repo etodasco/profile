@@ -128,6 +128,12 @@
     console.log(event);
     });
 
+    const btn_figma = document.querySelector(".btn-figma");
+  btn_figma.addEventListener("click", (event) => {
+    btn_figma.classList.toggle("active");
+    console.log(event);
+    });
+
   // Button click event lister for each backend button //  
 
 
