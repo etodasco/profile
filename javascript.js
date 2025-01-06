@@ -169,8 +169,8 @@
   
    // Button click event lister for each portfolio button // 
 
-  const btn_coming_soon = document.querySelector(".btn-coming-soon");
-  btn_coming_soon.addEventListener("click", (event) => {
-    btn_coming_soon.classList.toggle("active");
-    console.log(event);
-    });
+  // const btn_coming_soon = document.querySelector(".btn-coming-soon");
+  // btn_coming_soon.addEventListener("click", (event) => {
+  //   btn_coming_soon.classList.toggle("active");
+  //   console.log(event);
+  //   });
