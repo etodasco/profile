@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Eric's profile page.</title>
-    <meta name="description" content="A profile page about me" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A profile page about me" />
+    <title>Eric's Profile Page</title>
+
+    <!-- FontAwesome for icons -->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v6.1.2/css/all.css"
     />
+
+    <!-- Component CSS -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/components/banner.css" />
     <link rel="stylesheet" href="css/components/banner_animation.css" />
@@ -19,7 +23,8 @@
   </head>
 
   <body>
-    <div
+    <!-- Banner Section -->
+    <header
       class="banner"
       style="
         background-image: url(images/header_img.jpg);
@@ -27,187 +32,143 @@
         background-position: center;
       "
     >
-      <img src="images/Eric_Todasco.jpg" class="avatar" alt="My profile picture" />
-      <h1 class="Hello">
-        <span class="title-text">
-          <em>Software Engineer - Full Stack Web Developer</em></span
-        >
-      </h1>
-      <h2>
-        Hello, I'm Eric Todasco.<span class="title-emoji-animation">👋🏻</span>
-      </h2>
-    </div>
-
-    <div class="container">
-      <h2><i>My Story:</i></h2>
-
-<p>“Here's to the crazy ones. The misfits. The rebels. The round pegs in the square holes. The ones who see things differently.” — Steve Jobs</p>
-
-<p>That mindset has guided me throughout my journey. From a young age, curiosity sparked my passion for technology, which grew into a career spanning over 15 years, including roles at <strong><em>Apple</em></strong> and <strong><em>Shopify</em></strong>, where I honed skills in technology, security, and building reliable software solutions.</p>
-
-<p>Like the “crazy ones” Jobs celebrated, I’ve always sought more to challenge the status quo, push boundaries, and create work that matters. Diving into software engineering allows me to develop solutions that are not only fast, reliable, and secure, but also leave a lasting impact.</p>
-
-<p>As a graduate of Le Wagon’s Full-Stack Web Development & AI bootcamp in Montreal, I’m now looking for opportunities where I can grow, learn relentlessly, and be part of something truly exceptional building applications and systems that will be remembered for years to come.</p>
-
-<p>Passionate, curious, and driven by purpose, I don’t just question how technology works, I strive to shape it into something meaningful. I’m eager to join a team where I can contribute, innovate, and help create a legacy of impact.</p>
-
-      <!-- <ul class="list-inline">
-                    <li class="le_wagon_logo">
-                        <a href="https://www.lewagon.com/web-development-course" target="_blank"><img src="images/le_wagon_logo.svg" alt="le_wagon_logo" width=170px></a>
-                    </li>
-                </ul> -->
-    </div>
-
-    <div class="container">
-      <h2><i>Portfolio</i></h2>
-      <ul class="list-inline">
-        <li class="clickable">
-          <a
-            href="https://etodasco.github.io/bootstrap-website/"
-            target="_blank"
-            class="btn-coming-soon"
-          >
-            <i>Move It</i>
-          </a>
-
-          <a
-            href="https://etodasco.github.io/tindog-project/"
-            target="_blank"
-            class="btn-coming-soon"
-          >
-            <i>TinDog</i>
-          </a>
-
-          <a
-            href="https://etodasco.github.io/Techno-Club/"
-            target="_blank"
-            class="btn-coming-soon"
-          >
-            <i>Techno Club</i>
-          </a>
-
-          <a
-            href="https://etodasco.github.io/travel-goals/"
-            target="_blank"
-            class="btn-coming-soon"
-          >
-            <i>Travel-Goals</i>
-          </a>
-
-          <a
-            href="https://etodasco.github.io/JavaScript_Drum_Kit/"
-            target="_blank"
-            class="btn-coming-soon"
-          >
-            <i>Drum Kit (JS)</i>
-          </a>
-
-          <a
-            href="https://etodasco.github.io/JavaScript_jQuery_Simon_game/"
-            target="_blank"
-            class="btn-coming-soon"
-          >
-            <i>Simon Game (jQuery)</i>
-          </a>
-
-          <a
-            href="https://etodasco.github.io/Tic-Tac-Toe-Game/"
-            target="_blank"
-            class="btn-coming-soon"
-          >
-            <i>Tic-Tac-Toe (JS)</i>
-          </a>
-
-          <a class="btn-coming-soon">
-            <i>X Scheduled Posts (Ruby)</i>
-          </a>
-
-          <a class="btn-coming-soon"
-          >
-            <i>Cafe Bell-O (Ruby)</i>
-          </a>
-
-          <a class="btn-coming-soon">
-            <i>Django Blog Post (Python)</i>
-          </a>
-
-          <a class="btn-coming-soon">
-            <i>Django Book Store (Python)</i>
-          </a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="container">
-      <h2><i>Frontend Engineering Skills</i></h2>
-      <ul class="list-inline">
-        <li class="btn-frontend">
-          <i class="btn-html">HTML5</i>
-          <i class="btn-css">CSS3</i>
-          <i class="btn-es6">ES6</i>
-          <i class="btn-cdt">Chrome Dev Tools</i>
-          <i class="btn-vuejs">Vue.js</i>
-          <!-- <i class="btn-react">React</i> -->
-          <i class="btn-figma">Figma</i>
-          <i class="btn-heroku">Heroku</i>
-          <i class="btn-openai">OpenAI</i>
-          <i class="btn-copilot">Copilot</i>
-        </li>
-      </ul>
-    </div>
-
-    <div class="container">
-      <h2><i>Backend Engineering Skills</i></h2>
-      <ul class="list-inline">
-        <li class="clickable">
-          <i class="btn-rubyonrails">ES6</i>
-          <i class="btn-rubyonrails">Node.js</i>
-          <i class="btn-backend-ruby">EJS</i>
-          <i class="btn-backend-ruby">Ruby</i>
-          <i class="btn-rubyonrails">Ruby On Rails</i>
-          <i class="btn-backend-ruby">Python</i>
-          <i class="btn-backend-ruby">Flask</i>
-          <i class="btn-backend-ruby">Django</i>
-          <i class="btn-github">Git / Github</i>
-          <i class="btn-sql">SQL</i>
-          <i class="btn-sql">ActiveRecord</i>
-          <i class="btn-sql">PostgreSQL</i>
-          <i class="btn-restapi">RestfulAPI</i>
-          <i class="btn-postman">Postman</i>
-        </li>
-      </ul>
-    </div>
-
-    <div class="container">
-      <h2><i>Cybersecurity Skills</i></h2>
-      <ul class="list-inline">
-        <li class="clickable">
-          <i class="btn-analysis">SAST Code Analysis</i>
-          <i class="btn-burpsuite">Burpsuite Community / Pro</i>
-          <i class="btn-hackerone">HackerOne Platform</i>
-          <i class="btn-kalilinux">Kalilinux OS</i>
-        </li>
-      </ul>
-    </div>
-
-    <div class="footer">
-      <div class="link">
-        <h2><i>Social Media</i></h2>
-        <ul class="list-inline">
-          <li class="logos">
-            <a
-              href="https://www.linkedin.com/in/eric-todasco-5098581b5/"
-              target="_blank"
-            >
-              <i id="linkedin-logo" class="fa-brands fa-linkedin"></i
-            ></a>
-            <a href="https://github.com/etodasco" target="_blank">
-              <i id="github-logo" class="fa-brands fa-github"> </i
-            ></a>
-          </li>
-        </ul>
+      <div class="banner-content">
+        <img
+          src="images/Eric_Todasco.jpg"
+          class="avatar"
+          alt="Profile picture"
+        />
+        <h1 class="title-text">
+          <em>Software Engineer - Full Stack Web Developer</em>
+        </h1>
+        <h2>
+          Hello, I'm Eric Todasco
+          <span class="title-emoji-animation">👋🏻</span>
+        </h2>
       </div>
-    </div>
+    </header>
+
+    <!-- Story Section -->
+    <main class="container">
+      <section>
+        <h2><i>My Story:</i></h2>
+
+        <p>
+          “Here's to the crazy ones. The misfits. The rebels. The round pegs
+          in the square holes. The ones who see things differently.” — Steve
+          Jobs
+        </p>
+
+        <p>
+          That mindset has guided me throughout my journey. From a young age,
+          curiosity sparked my passion for technology, which grew into a career
+          spanning over 15 years, including roles at
+          <strong><em>Apple</em></strong> and <strong><em>Shopify</em></strong>,
+          where I honed skills in technology, security, and building reliable
+          software solutions.
+        </p>
+
+        <p>
+          Like the “crazy ones” Jobs celebrated, I’ve always sought more to
+          challenge the status quo, push boundaries, and create work that
+          matters. Diving into software engineering allows me to develop
+          solutions that are not only fast, reliable, and secure, but also
+          leave a lasting impact.
+        </p>
+
+        <p>
+          As a graduate of Le Wagon’s Full-Stack Web Development & AI bootcamp
+          in Montreal, I’m now looking for opportunities where I can grow, learn
+          relentlessly, and be part of something truly exceptional building
+          applications and systems that will be remembered for years to come.
+        </p>
+
+        <p>
+          Passionate, curious, and driven by purpose, I don’t just question how
+          technology works, I strive to shape it into something meaningful. I’m
+          eager to join a team where I can contribute, innovate, and help create
+          a legacy of impact.
+        </p>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section>
+        <h2><i>Portfolio</i></h2>
+        <div class="portfolio-buttons">
+          <a href="https://etodasco.github.io/bootstrap-website/" target="_blank" class="btn btn-coming-soon">Move It</a>
+          <a href="https://etodasco.github.io/tindog-project/" target="_blank" class="btn btn-coming-soon">TinDog</a>
+          <a href="https://etodasco.github.io/Techno-Club/" target="_blank" class="btn btn-coming-soon">Techno Club</a>
+          <a href="https://etodasco.github.io/travel-goals/" target="_blank" class="btn btn-coming-soon">Travel-Goals</a>
+          <a href="https://etodasco.github.io/JavaScript_Drum_Kit/" target="_blank" class="btn btn-coming-soon">Drum Kit (JS)</a>
+          <a href="https://etodasco.github.io/JavaScript_jQuery_Simon_game/" target="_blank" class="btn btn-coming-soon">Simon Game (jQuery)</a>
+          <a href="https://etodasco.github.io/Tic-Tac-Toe-Game/" target="_blank" class="btn btn-coming-soon">Tic-Tac-Toe (JS)</a>
+          <a class="btn btn-coming-soon">X Scheduled Posts (Ruby)</a>
+          <a class="btn btn-coming-soon">Cafe Bell-O (Ruby)</a>
+          <a class="btn btn-coming-soon">Django Blog Post (Python)</a>
+          <a class="btn btn-coming-soon">Django Book Store (Python)</a>
+        </div>
+      </section>
+
+      <!-- Frontend Skills Section -->
+      <section>
+        <h2><i>Frontend Engineering Skills</i></h2>
+        <div class="skills-buttons">
+          <i class="btn btn-html">HTML5</i>
+          <i class="btn btn-css">CSS3</i>
+          <i class="btn btn-es6">ES6</i>
+          <i class="btn btn-cdt">Chrome Dev Tools</i>
+          <i class="btn btn-vuejs">Vue.js</i>
+          <i class="btn btn-figma">Figma</i>
+          <i class="btn btn-heroku">Heroku</i>
+          <i class="btn btn-openai">OpenAI</i>
+          <i class="btn btn-copilot">Copilot</i>
+        </div>
+      </section>
+
+      <!-- Backend Skills Section -->
+      <section>
+        <h2><i>Backend Engineering Skills</i></h2>
+        <div class="skills-buttons">
+          <i class="btn btn-backend-ruby left-align">EJS</i>
+          <i class="btn btn-backend-ruby left-align">Ruby</i>
+          <i class="btn btn-rubyonrails left-align">Ruby on Rails</i>
+          <i class="btn btn-backend-ruby left-align">Python</i>
+          <i class="btn btn-backend-ruby left-align">Flask</i>
+          <i class="btn btn-backend-ruby left-align">Django</i>
+          <i class="btn btn-github left-align">Git / Github</i>
+          <i class="btn btn-sql left-align">SQL</i>
+          <i class="btn btn-sql left-align">ActiveRecord</i>
+          <i class="btn btn-sql left-align">PostgreSQL</i>
+          <i class="btn btn-restapi left-align">RestfulAPI</i>
+          <i class="btn btn-postman left-align">Postman</i>
+        </div>
+      </section>
+
+      <!-- Cybersecurity Skills Section -->
+      <section>
+        <h2><i>Cybersecurity Skills</i></h2>
+        <div class="skills-buttons">
+          <i class="btn btn-analysis left-align">SAST Code Analysis</i>
+          <i class="btn btn-burpsuite left-align">Burpsuite Community / Pro</i>
+          <i class="btn btn-hackerone left-align">HackerOne Platform</i>
+          <i class="btn btn-kalilinux left-align">Kalilinux OS</i>
+          <i class="btn btn-pentesting left-align">Penetration Testing</i>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <h2><i>Social Media</i></h2>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/eric-todasco-5098581b5/" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/etodasco" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </footer>
 
     <script src="javascript.js"></script>
   </body>
