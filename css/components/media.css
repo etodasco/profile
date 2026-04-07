@@ -1,23 +1,21 @@
-@media (min-width: 440px) {
+/* Base container for all screens */
+.container {
+  width: 90%;              /* almost full width on small screens */
+  max-width: 700px;        /* limit width on large screens */
+  margin: 0 auto;          /* center horizontally */
+  padding: 0 16px;         /* small padding for mobile */
+  box-sizing: border-box;  /* include padding in width */
+}
 
-    /* For screen sizes > 720px */
-    .container {
-      width: 400px;
-    }
+/* Optional: more precise breakpoints if needed */
+@media (min-width: 620px) {
+  .container {
+    max-width: 500px;  /* tablet */
   }
-  
-  @media (min-width: 620px) {
-  
-    /* For screen sizes > 720px */
-    .container {
-      width: 500px;
-    }
+}
+
+@media (min-width: 960px) {
+  .container {
+    max-width: 700px;  /* desktop */
   }
-  
-  @media (min-width: 960px) {
-  
-    /* For screen sizes > 720px */
-    .container {
-      width: 700px;
-    }
-  }
+}

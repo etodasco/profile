@@ -1,15 +1,34 @@
+/* avatar.css - Mobile Friendly */
 .avatar {
     display: block;
     margin: 0 auto;
     width: 250px;
     height: 250px;
     border: 1px solid white;
-    border-radius: 50%;       /* start as circle */
-    object-fit: cover;        /* fill without squishing */
-    transition: border-radius 500ms, transform 500ms;
+    border-radius: 50%;          /* start as circle */
+    object-fit: cover;           /* fill without squishing */
+    transition: border-radius 0.5s ease, transform 0.5s ease;
+    cursor: pointer;             /* indicate interactivity */
 }
 
-.avatar:hover {
-    border-radius: 10%;       /* change to more rounded rectangle on hover */
-    transform: scale(1.05);   /* optional: slight zoom effect */
+/* Click / touch toggle effect */
+.avatar.avatar-circle {
+    border-radius: 10%;          /* rounded rectangle when toggled */
+    transform: scale(1.05);      /* optional slight zoom */
+}
+
+/* Optional: hover for desktop */
+@media (hover: hover) and (pointer: fine) {
+    .avatar:hover {
+        border-radius: 10%;
+        transform: scale(1.05);
+    }
+}
+
+/* Responsive size for mobile devices */
+@media (max-width: 600px) {
+    .avatar {
+        width: 180px;
+        height: 180px;
+    }
 }

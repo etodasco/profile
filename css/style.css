@@ -1,37 +1,58 @@
+/* Base body styles */
 body {
-    background-color: rgb(255, 255, 255);
-    color: black;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
-div {
-    display: block;
-    background-color: rgb(255, 255, 255);
-    width: auto;
-    margin: auto;
-    padding-top: 5px;
-    padding-bottom: 5px;
+/* Containers */
+.container {
+  width: 90%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 10px 16px;
+  box-sizing: border-box;
 }
 
+/* Profile section */
 .profile {
-    text-align: center;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .profile h1 {
-   font-family: arial;
-   font-size: 25px;
+  font-size: 1.8rem; /* ~29px on default font-size */
+  margin-bottom: 10px;
 }
 
 .profile p {
-    font-family: arial;
-    font-size: 16;
+  font-size: 1rem; /* 16px */
+  margin-bottom: 12px;
 }
 
+/* Le Wagon Logo */
 .le_wagon_logo {
-    text-align: center;
-    padding-top: 8px;
+  text-align: center;
+  padding-top: 12px;
 }
 
+/* Lists */
 ul {
-    list-style: none;
-    text-align: left;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Responsive Typography */
+@media (max-width: 600px) {
+  .profile h1 {
+    font-size: 1.5rem;
+  }
+
+  .profile p {
+    font-size: 0.95rem;
+  }
 }

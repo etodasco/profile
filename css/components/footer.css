@@ -1,31 +1,49 @@
+/* Footer Container */
 .footer {
-    color: white;
-    background-color: #000000;
-    text-align: center;
-    padding: 15px;
+  background-color: #111;       /* dark background */
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
 }
 
 .footer h2 {
-    font-family: arial;
-    font-size: 25px;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
 }
 
-div .link {
-    color: white;
-    background-color: black;
+/* Social icons container */
+.footer .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px; /* spacing between icons */
 }
 
-.footer a {
-    color: white;
-    font-size: 40px;
-    margin-right: 5px;
-    margin-left: 5px;
+.footer .social-icons a {
+  color: #fff;
+  font-size: 2rem;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
-.footer a:hover {
-    color: rgb(213, 213, 213);
+.footer .social-icons a:hover {
+  color: #0a66c2;  /* LinkedIn blue */
+  transform: scale(1.2);
 }
 
-.footer .logos {
-    text-align: center;
+/* Optional: footer buttons if any */
+.footer .btn {
+  margin: 8px;
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  .footer h2 {
+    font-size: 1.2rem;
+  }
+
+  .footer .social-icons a {
+    font-size: 1.5rem;
+  }
 }
